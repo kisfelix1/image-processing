@@ -53,3 +53,19 @@ This project aims to develop a sophisticated system for capturing, analyzing, an
    - Design user studies to evaluate the system's effectiveness in real-world scenarios
 
 By achieving these technical checkpoints, the project will create a versatile and powerful system for human movement capture, analysis, and utilization across various digital platforms, opening up new possibilities in gaming, healthcare, sports analysis, and human-computer interaction.
+
+
+## Spatial Filtering Usage
+
+cd spatial_filtering
+
+python -m venv venv
+
+Win:
+   venv\Scripts\activate
+Mac:
+   source venv/bin/activate
+
+pip install -r requirements.txt
+
+python -m spatial_filtering.linear_filtering
